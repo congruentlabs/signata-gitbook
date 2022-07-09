@@ -8,42 +8,77 @@ Any source code provided on this site is unaudited and provides no guarantee tha
 
 ### Deployment
 
-The Risk API is a python flask service using [Supabase](https://github.com/cl-tim/signata-docs/blob/main/docs/source/supabase.com) for record retrieval and storage. It can be easily deployed on services like [DigitalOcean](https://m.do.co/c/7802e11be119) with the following environment variables set:
+The Risk API is a python flask service using [Supabase](https://github.com/cl-tim/signata-docs/blob/main/docs/source/supabase.com) for record retrieval and storage.
+
+{% embed url="https://supabase.com" %}
+
+It can be easily deployed on services like [DigitalOcean](https://m.do.co/c/7802e11be119) with the following environment variables set:
 
 `SUPABASE_URL`
 
 `SUPABASE_KEY`
 
-The Congruent Labs Risk API service is hosted at `https://risk.signata.net/`
+{% embed url="https://m.do.co/c/7802e11be119" %}
 
-### Get Risk Level
+{% swagger method="get" path="/riskLevel" baseUrl="https://risk.signata.net/api/v1" summary="Get Risk Level" %}
+{% swagger-description %}
 
-Request:
+{% endswagger-description %}
 
-`GET /api/v1/riskLevel/{addr}`
+{% swagger-parameter in="path" name="addr" required="true" %}
 
-Response:
+{% endswagger-parameter %}
 
-Just responding with single values in the body for consumption by oracles.
+{% swagger-response status="200: OK" description="" %}
+```javascript
+0 - unknown risk level
+1..5 - risk levels
+```
+{% endswagger-response %}
 
-`0 - unknown risk level`
+{% swagger-response status="400: Bad Request" description="" %}
+```javascript
+Invalid Address
+```
+{% endswagger-response %}
+{% endswagger %}
 
-`1...5 - risk levels`
+{% swagger method="post" path="/riskEvent" baseUrl="https://risk.signata.net/api/v1" summary="Add Risk Event" %}
+{% swagger-description %}
+Injects a risk event into the database.
 
-Errors:
+Requires a 'write' x-api-key
+{% endswagger-description %}
 
-`400 - Invalid Address`
+{% swagger-parameter in="body" name="address" required="true" %}
 
-### Add Risk Event
+{% endswagger-parameter %}
 
-Request:
+{% swagger-parameter in="body" name="geolocation_thumbprint" %}
 
-`POST /api/v1/riskEvent`
+{% endswagger-parameter %}
 
-Response:
+{% swagger-parameter in="body" name="access_type" %}
 
-`200 OK`
+{% endswagger-parameter %}
 
-Errors:
+{% swagger-parameter in="body" name="reported_by" %}
 
-`400 - Invalid Address`
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="device_thumbprint" %}
+
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="" %}
+```javascript
+Event Added
+```
+{% endswagger-response %}
+
+{% swagger-response status="400: Bad Request" description="" %}
+```javascript
+Invalid Address
+```
+{% endswagger-response %}
+{% endswagger %}
