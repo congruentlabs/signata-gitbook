@@ -1,0 +1,2 @@
+# Signata Rights
+
