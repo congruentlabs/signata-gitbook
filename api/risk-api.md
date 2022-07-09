@@ -6,7 +6,7 @@ Any source code provided on this site is unaudited and provides no guarantee tha
 
 ## signata-risk-api
 
-### Deployment
+{% embed url="https://github.com/congruentlabs/signata-risk-api" %}
 
 The Risk API is a python flask service using [Supabase](https://github.com/cl-tim/signata-docs/blob/main/docs/source/supabase.com) for record retrieval and storage.
 
