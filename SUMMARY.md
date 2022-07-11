@@ -4,9 +4,12 @@
 
 ## Design
 
-* [Signata](design/signata.md)
+* [Overview](design/overview.md)
+* [DID Manager](design/did-manager.md)
+* [Identity Provider](design/identity-provider.md)
 * [Signata DAO](design/signata-dao.md)
 * [Veriswap](design/veriswap.md)
+* [Risk Reporting](design/risk-reporting.md)
 
 ## Guides
 
