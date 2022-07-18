@@ -18,6 +18,10 @@ This document details all links to external services related to the Signata toke
 
 ## Exchanges
 
+{% hint style="warning" %}
+Links to exchanges are not endorsements or recommendations, they are only provided as a reference to help prevent scams.
+{% endhint %}
+
 ### SATA Ethereum Network
 
 {% embed url="https://v2.info.uniswap.org/pair/0xbc00e708c407d7633f7504434e74c13e171de7f1" %}

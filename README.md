@@ -1,3 +1,7 @@
+---
+layout: landing
+---
+
 # Welcome
 
 This is the documentation website for the Signata project.
