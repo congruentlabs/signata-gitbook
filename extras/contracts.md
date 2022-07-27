@@ -18,7 +18,7 @@ These contracts are still in development and may change at a later date. Use thi
 | Timelock        | `0x30b0106d9140902d7d495a7f21d282852e9f59d8` |
 | SignataIdentity | `0x6B47e26A52a9B5B467b98142E382c081eA97B0fc` |
 | SignataRight    | `0x7c8890a02abd24ff00c4eb1425258ea4b611d300` |
-| Veriswap        | `TBC`                                        |
+| Veriswap        | `0x4eB5307c6c72094363a7cd99C1614b28A41dB661` |
 | Deployer        | `0x042fc4ea3f836e1ea5dc4fb70ec90ded51c09eca` |
 | Token Vault     | `0xc77aab3c6d7dab46248f3cc3033c856171878bd5` |
 
