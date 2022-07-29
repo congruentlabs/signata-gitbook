@@ -1,6 +1,6 @@
 # Signata DAO
 
-vote.signata.id
+vote.signata.net
 
 ## Overview
 

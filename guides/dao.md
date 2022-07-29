@@ -2,15 +2,21 @@
 
 Signata Governance is currently managed on GitHub using a dedicated repository using Issues to track each proposal.
 
-### Management
+### Proposal Discussion
 
-All Signata DAO proposals are managed on GitHub.
+All Signata DAO proposals are managed on GitHub. Create proposals here for discussion:
 
 {% embed url="https://github.com/congruentlabs/signata-dao" %}
 
-### Interface
+Discussion about proposals also happens on Discord:
 
-All Signata DAO contracts are implementations of OpenZeppelin standards, and so Tally has been used for DAO management.
+{% content-ref url="../extras/links.md" %}
+[links.md](../extras/links.md)
+{% endcontent-ref %}
+
+### Proposal Voting
+
+All Signata DAO contracts are implementations of OpenZeppelin standards, and so Tally has been used for a DAO management interface.
 
 {% embed url="https://www.tally.xyz/governance/eip155:1:0x3D3255D21654B9a8325DfE6353ac6B37352Eb80B" %}
 

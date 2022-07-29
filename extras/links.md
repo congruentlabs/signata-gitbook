@@ -6,9 +6,9 @@ This document details all links to external services related to the Signata toke
 
 {% embed url="https://blog.congruentlabs.co/" %}
 
-{% embed url="https://twitter.com/SignataOfficial" %}
-
 {% embed url="https://t.me/signatanews" %}
+
+{% embed url="https://twitter.com/signataofficial" %}
 
 ## Development Community
 

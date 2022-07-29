@@ -6,6 +6,12 @@
 [veriswap.md](../guides/veriswap.md)
 {% endcontent-ref %}
 
+### Code Repository
+
+Use the issues tracker to find areas to contribute to the dApp development, and also find development bounties to work on:
+
+{% embed url="https://github.com/congruentlabs/veriswap.io" %}
+
 ## Overview
 
 Veriswap is a reference implementation for Signata. It is a peer-to-peer token swap service where party A can specify an amount of a token to swap for another, and party B can execute that swap. For integration with Signata it provides an option identity enforcement check on swaps.

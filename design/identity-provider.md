@@ -1,6 +1,6 @@
 # Identity Provider
 
-auth.signata.id
+auth.signata.net
 
 ## Overview
 

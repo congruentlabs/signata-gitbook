@@ -6,7 +6,7 @@
 ## Design
 
 * [Overview](design/overview.md)
-* [DID Manager](design/did-manager.md)
+* [Identity Manager](design/identity-manager.md)
 * [Identity Provider](design/identity-provider.md)
 * [Signata DAO](design/signata-dao.md)
 * [Veriswap](design/veriswap.md)
