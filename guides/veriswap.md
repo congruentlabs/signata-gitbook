@@ -26,7 +26,7 @@ Once your wallet is connected, you can start by specifying the token to send. Yo
 
 When you've pasted in a valid ERC20 token address you can then specify the amount you want to send. To save time you can click on the purple percentage amount buttons to automatically fill in a that percentage of your wallet balance of that token. If you click 100%, you will be sending all of your balance of that token.
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (1).png>)
 
 ![](<../.gitbook/assets/image (8).png>)
 
@@ -86,5 +86,5 @@ Down the bottom you will find a textbox to enter a new executor address. Provide
 
 If you wish to cancel the swap, just click **Cancel Swap** at the bottom of the page.
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
