@@ -354,5 +354,129 @@ await expectEvent(rolloverReceipt, 'Rollover', {
 });
 ```
 
-### Lite Identity
+### SignataIdentityLite
 
+#### Access Roles
+
+There are 2 access roles defined for the contract:
+
+* DELEGATE\_ROLE: Can modify identities on behalf of users. Intended for assignment by the project contract custodian to authorized delegation services.
+* MODIFIER\_ROLE: Can modify contract parameters. Intended for assignment to the project contract custodian and the DAO.
+
+<details>
+
+<summary>create()</summary>
+
+Sets flag `_identityExists = true` for `msg.sender`. Also sets `_identityDelegate = msg.sender` to self-delegate the identity.
+
+If the `msg.sender` holds the minimum balance of SATA tokens they will not be charged a fee. If they don't hold enough SATA a native token (ETH for Ethereum) will be charged on top of the network fees to execute the transaction.
+
+Emits: `Create(msg.sender)`
+
+</details>
+
+<details>
+
+<summary>createAsDelegate(address subject)</summary>
+
+Sets flag `_identityExists = true` for `subject`. Also sets `_identityDelegate = msg.sender` to self-delegate the identity.
+
+The alternative to self-creation of an identity a user can call an authorized delegation service to create the identity for them. This call will not charge for the creation of the identity as charges will be collected separately by the delegation service.
+
+This function can only be called by addresses in the `DELEGATE_ROLE` access role.
+
+Emits: `Create(msg.sender)`
+
+</details>
+
+<details>
+
+<summary>setDelegate(address delegate)</summary>
+
+Sets `_identityDelegate = delegate` to update the delegated address of the identity.
+
+This can only be called by the identity, and not the delegate.
+
+This function can only be set the delegate to an address in the `DELEGATE_ROLE` access role.
+
+</details>
+
+<details>
+
+<summary>selfLock()</summary>
+
+Sets `_identityLocked[msg.sender] = true` for the caller.
+
+A user can self lock their own identity, but they cannot unlock their own identity. This is because they may wish to lock their identity if they suspect a compromise, but if their identity is compromised then an attacker could just call `unlock` to restore it. Without the means to unlock it the attacker will be limited from using the identity in consuming services. The only way to unlock the identity is through a delegation service.
+
+</details>
+
+<details>
+
+<summary>lock(address subject)</summary>
+
+Sets `_identityLocked[subject] = true` for the subject.&#x20;
+
+This function can only be called by addresses in the `DELEGATE_ROLE` access role.
+
+</details>
+
+<details>
+
+<summary>unlock(address subject)</summary>
+
+Sets `_identityLocked[subject] = false` for the subject.&#x20;
+
+This function can only be called by addresses in the `DELEGATE_ROLE` access role.
+
+</details>
+
+<details>
+
+<summary>updateIdentityToken(address newToken)</summary>
+
+If the SATA token address needs to change it can be updated with this function.
+
+This function can only be called by addresses in the `MODIFIER_ROLE` access role.
+
+</details>
+
+<details>
+
+<summary>withdraw(address to)</summary>
+
+Sends all ETH collected by the contract to the `to` address specified.
+
+This function can only be called by addresses in the `MODIFIER_ROLE` access role.
+
+</details>
+
+<details>
+
+<summary>updateMinimumBalance(uint256 newAmount)</summary>
+
+Updates `minimumBalance`.
+
+This function can only be called by addresses in the `MODIFIER_ROLE` access role.
+
+</details>
+
+<details>
+
+<summary>updateNonHolderFee(uint256 newAmount)</summary>
+
+Updates `nonHolderFee`.
+
+This function can only be called by addresses in the `MODIFIER_ROLE` access role.
+
+</details>
+
+<details>
+
+<summary>addDelegate(address newDelegate)</summary>
+
+Adds `newDelegate` to `DELEGATE_ROLE`.
+
+This function can only be called by addresses in the `MODIFIER_ROLE` access role.
+
+</details>
