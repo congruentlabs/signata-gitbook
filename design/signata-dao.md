@@ -2,8 +2,8 @@
 
 Guides on using the DAO can be found here:
 
-{% content-ref url="../guides/dao.md" %}
-[dao.md](../guides/dao.md)
+{% content-ref url="../guides/dao-guide.md" %}
+[dao-guide.md](../guides/dao-guide.md)
 {% endcontent-ref %}
 
 ## Overview
@@ -29,6 +29,22 @@ Snapshot has been used for a "meta" vote for the DAO - a vote that did not requi
 Proposal management is handled on GitHub as it provides an open and free platform for the creation and discussion of voting topics for the DAO. A number of proposal managers have been voted on by the community to moderate and protect the DAO from any malicious attacks.
 
 {% embed url="https://github.com/congruentlabs/signata-dao" %}
+
+### Governor
+
+Derived from OpenZeppelin Contracts (last updated v4.6.0) (governance/Governor.sol)
+
+Implements Governor, GovernorSettings, GovernorCompatibilityBravo, GovernorVotes, GovernorVotesQuorumFraction, and GovernorTimelockControl.
+
+Quorum for votes to pass is 4% of total supply. Balance threshold to create a vote is 1 token.
+
+[Verified Etherscan Contract](https://etherscan.io/address/0x3D3255D21654B9a8325DfE6353ac6B37352Eb80B#code)
+
+### Timelock
+
+Derived from OpenZeppelin Contracts (last updated v4.6.0) (governance/TimelockController.sol)
+
+[Verified Etherscan Contract](https://etherscan.io/address/0x30b0106d9140902d7d495a7f21d282852e9f59d8#code)
 
 ## Tokenomics
 

@@ -1,6 +1,6 @@
 # Veriswap
 
-### How to Use Veriswap
+Guides on using Veriswap can be found here:
 
 {% content-ref url="../guides/veriswap.md" %}
 [veriswap.md](../guides/veriswap.md)

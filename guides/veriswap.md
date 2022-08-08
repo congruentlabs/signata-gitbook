@@ -22,31 +22,31 @@ To get started, browse to the Veriswap website and connect your wallet
 
 Once your wallet is connected, you can start by specifying the token to send. You need to paste in a valid ERC20 token address of the token you're sending.
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 When you've pasted in a valid ERC20 token address you can then specify the amount you want to send. To save time you can click on the purple percentage amount buttons to automatically fill in a that percentage of your wallet balance of that token. If you click 100%, you will be sending all of your balance of that token.
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (1).png>)
 
 Now specify which token you want to receive in the swap. Once you provide a valid ERC20 token address you will be able to specify how many tokens you will receive in the swap.
 
 The swap won't check that the executor has enough tokens to complete the swap at this stage.
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 Now set the executor of the swap. This is the wallet address of the other party that you want to complete the swap. Nobody else but the executor can complete the swap.
 
 Specifying the executor will reveal extra options to Require Signata Identity and Enforce Risk Detection. You can enable these if you wish for the swap.
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (6) (1).png>)
 
 Now, you must **Approve** and then **Open Swap**. Both of these actions require signatures submitted on the blockchain, and will incur network gas fees. Approval is needed to let the Veriswap contract transfer your tokens out of your wallet, and Open Swap creates the swap record on the chain.
 
-![](<../.gitbook/assets/image (9).png>)
+![](<../.gitbook/assets/image (9) (1).png>)
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (10) (1).png>)
 
 Once the swap has been opened on the blockchain, you will see a confirmation message. You also now cannot create any more swaps until the currently open swap is completed or canceled.
 
@@ -82,9 +82,9 @@ If you need to change the executor of a swap after it's been created, you can si
 
 Down the bottom you will find a textbox to enter a new executor address. Provide a new valid wallet address and click **Change Executor**.
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (1).png>)
 
 If you wish to cancel the swap, just click **Cancel Swap** at the bottom of the page.
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1).png>)
 

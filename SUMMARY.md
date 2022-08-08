@@ -14,9 +14,9 @@
 
 ## Guides
 
-* [Signata Identity](guides/signata-identity.md)
-* [Signata Rights](guides/signata-rights.md)
-* [DAO](guides/dao.md)
+* [DAO Guide](guides/dao-guide.md)
+* [Identity Management](guides/identity-management.md)
+* [Rights Management](guides/rights-management.md)
 * [Veriswap](guides/veriswap.md)
 
 ## Extras
