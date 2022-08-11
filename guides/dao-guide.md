@@ -26,7 +26,7 @@ To do this, open the Signata DAO on Tally.xyz:​​
 
 At the top of the page, click **Delegate vote**:
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 Connect your MetaMask or WalletConnect wallet:
 
@@ -42,7 +42,7 @@ You will then need to confirm on-chain your delegation.
 
 Once the transaction is confirmed that's it! You are ready to vote in the DAO. Your address will show up in Tally as a voter (it can sometimes take a few minutes to appear), and show you how much voting power you have.
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (2).png>)
 
 If your dSATA balance changes, make sure you delegate your votes again so your new balance is tracked in the DAO.
 
@@ -56,11 +56,11 @@ TODO
 
 On the Tally DAO interface, click **Create new proposal**.
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../.gitbook/assets/image (20) (1).png>)
 
 Connect your wallet and click **Continue**.
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (2).png>)
 
 Fill out the description from the proposal information defined on the GitHub proposal and click **Continue**.
 
@@ -70,7 +70,7 @@ Depending on what actions the proposal is meant to take, you must define at leas
 
 For example, transferring tokens will show the tokens held in the timelock treasury that can be transferred, and you can define who will receive the tokens and how many:
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (10) (2).png>)
 
 Alternatively, you can define a custom action that the proposal will perform. This is any action that calls a smart contract function, so you can use these to modify things like the Signata Governor contract, Timelock contract, and more.
 
@@ -94,7 +94,7 @@ You will get a preview of your proposal. Click **Submit on-chain** if you want t
 
 Once a proposal is submitted on-chain a voting delay period starts. This period is by default set to 1 day, which gives people enough time to delegate their votes if required. While this delay period is in effect the proposal will show as "Pending" on Tally.
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (2).png>)
 
 ## Queueing Proposals on Tally
 

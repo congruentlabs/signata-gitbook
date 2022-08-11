@@ -18,11 +18,11 @@ To get started, browse to the Veriswap website and connect your wallet
 
 {% embed url="https://veriswap.io" %}
 
-![](<../.gitbook/assets/image (14).png>)
+![](<../.gitbook/assets/image (14) (1).png>)
 
 Once your wallet is connected, you can start by specifying the token to send. You need to paste in a valid ERC20 token address of the token you're sending.
 
-![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1).png>)
 
 When you've pasted in a valid ERC20 token address you can then specify the amount you want to send. To save time you can click on the purple percentage amount buttons to automatically fill in a that percentage of your wallet balance of that token. If you click 100%, you will be sending all of your balance of that token.
 
@@ -50,11 +50,11 @@ Now, you must **Approve** and then **Open Swap**. Both of these actions require 
 
 Once the swap has been opened on the blockchain, you will see a confirmation message. You also now cannot create any more swaps until the currently open swap is completed or canceled.
 
-![](<../.gitbook/assets/image (15).png>)
+![](<../.gitbook/assets/image (15) (1).png>)
 
 You will see a link at the top of the page to **Manage Your Swap**.
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (17) (1).png>)
 
 Click on the button to open the swap information page. You can give the URL of the page you're looking at to the executor so they can complete the swap.
 
@@ -78,7 +78,7 @@ If you are content with the swap details, click **Approve** and then **Complete 
 
 If you need to change the executor of a swap after it's been created, you can simply open up your created swap. You'll see a message at the top confirming that you're looking at your own swap, and a warning that you're not the designed executor of it.
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 Down the bottom you will find a textbox to enter a new executor address. Provide a new valid wallet address and click **Change Executor**.
 
