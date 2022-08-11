@@ -354,7 +354,7 @@ await expectEvent(rolloverReceipt, 'Rollover', {
 });
 ```
 
-### SignataIdentityLite
+### Nano Identity
 
 #### Access Roles
 
