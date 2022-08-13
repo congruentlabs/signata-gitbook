@@ -94,7 +94,7 @@ You will get a preview of your proposal. Click **Submit on-chain** if you want t
 
 Once a proposal is submitted on-chain a voting delay period starts. This period is by default set to 1 day, which gives people enough time to delegate their votes if required. While this delay period is in effect the proposal will show as "Pending" on Tally.
 
-![](<../.gitbook/assets/image (4) (2).png>)
+![](<../.gitbook/assets/image (4) (2) (1).png>)
 
 ## Queueing Proposals on Tally
 

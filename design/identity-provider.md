@@ -28,7 +28,7 @@ Click **Add Realm**.
 
 Set the name to **Signata** and click **Create**.
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (2).png>)
 
 ### Configure Authentication
 
@@ -46,7 +46,7 @@ Set the Alias to **Signata** and click **Save**.
 
 Click **Add execution**.
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (3).png>)
 
 Select **Signata Signature** and click **Save**.
 
@@ -64,7 +64,7 @@ Set the Alias to **Signata**, the Infura Id and Node URLs to the keys provided b
 
 Click on **Clients** in the left menu.
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (1).png>)
 
 
 

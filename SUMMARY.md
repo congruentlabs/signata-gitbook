@@ -18,6 +18,7 @@
 * [Identity Management](guides/identity-management.md)
 * [Rights Management](guides/rights-management.md)
 * [Veriswap](guides/veriswap.md)
+* [Identity Provider Installation](guides/identity-provider-installation.md)
 
 ## Extras
 

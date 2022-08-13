@@ -82,7 +82,7 @@ If you need to change the executor of a swap after it's been created, you can si
 
 Down the bottom you will find a textbox to enter a new executor address. Provide a new valid wallet address and click **Change Executor**.
 
-![](<../.gitbook/assets/image (5) (1).png>)
+![](<../.gitbook/assets/image (5) (1) (1).png>)
 
 If you wish to cancel the swap, just click **Cancel Swap** at the bottom of the page.
 
