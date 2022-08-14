@@ -1,8 +1,6 @@
 # Identity Provider Installation
 
-## Keycloak Deployment
-
-[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=7802e11be119\&utm\_campaign=Referral\_Invite\&utm\_medium=Referral\_Program\&utm\_source=badge)
+![](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)
 
 {% hint style="warning" %}
 Some of this documentation is intentionally vague to not reveal production deployment information. If you wish to deploy your own Signata Identity Provider, contact support for assistance.
@@ -11,6 +9,28 @@ Some of this documentation is intentionally vague to not reveal production deplo
 {% hint style="info" %}
 The links on this page to DigitalOcean are referral links - you can help support the Signata project by using those links to sign up and try DigitalOcean!
 {% endhint %}
+
+## Compiling Keycloak
+
+The Signata IdP is not a standard version of keycloak. It is the containerized version of keycloak with a custom Signata authentication provider injected during build.
+
+If you're compiling for the Signata production instance, you can leave the build script as-is. If you're compiling for a different instance (like your own fork), then you will need to modify the build PowerShell scripts to tag the container with the name you wish to use.
+
+```powershell
+cd keycloak-signata-extension/scripts/
+./build-production.ps1
+```
+
+If you're using a DigitalOcean docker registry, you will need to log into it first using an API key generated from the DO interface:
+
+```
+doctl auth init
+doctl registry login
+```
+
+You can alternatively use docker hub to host the container image, but instructions for that won't be provided here.
+
+## Deploying Keycloak
 
 ### Postgres
 
@@ -38,7 +58,7 @@ In the keycloak-signata-extension repository, use PowerShell to run **scripts/bu
 
 ### DigitalOcean App
 
-[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=7802e11be119\&utm\_campaign=Referral\_Invite\&utm\_medium=Referral\_Program\&utm\_source=badge)
+![](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)
 
 Create a new DigitalOcean App, using your container registry and the keycloak image you wish to deploy.
 
@@ -57,8 +77,8 @@ Set the following environment variables on the component:
 | KC\_HOSTNAME\_STRICT\_BACKCHANNEL | true                                            |                                                                          |
 | KC\_HOSTNAME\_STRICT              | true                                            |                                                                          |
 
-Make sure **HTTP Port** in the App configuration is set to **8080**. This should be sufficient to build and host the container. Don't set the port in the environment variables as that seems to prevent the admin portal from functioning.
+Make sure **HTTP Port** in the App configuration is set to **8080**. This should be sufficient to build and host the container. Don't set the port in the environment variables as that seems to prevent the admin portal from functioning correctly.
 
 The keycloak instance will just listen on HTTP. As DO performs the traffic proxying, it will handle all TLS configuration for the public endpoint.
 
-If your deployment fails and you're getting SQL errors, make sure the public URL for your database is correct as well as the port. DO postgres doesn't use the standard 5432 port.
+If your deployment fails and you're getting SQL errors, make sure the public URL for your database is correct as well as the port. DO postgres **doesn't** use the standard 5432 port.
