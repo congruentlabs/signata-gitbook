@@ -1,6 +1,6 @@
 # Identity Provider Installation
 
-![](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)
+{% embed url="https://m.do.co/c/7802e11be119" %}
 
 {% hint style="warning" %}
 Some of this documentation is intentionally vague to not reveal production deployment information. If you wish to deploy your own Signata Identity Provider, contact support for assistance.
@@ -58,7 +58,7 @@ In the keycloak-signata-extension repository, use PowerShell to run **scripts/bu
 
 ### DigitalOcean App
 
-![](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)
+{% embed url="https://m.do.co/c/7802e11be119" %}
 
 Create a new DigitalOcean App, using your container registry and the keycloak image you wish to deploy.
 
