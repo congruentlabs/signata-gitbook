@@ -4,7 +4,7 @@ layout: landing
 
 # Welcome
 
-This is the documentation website for the Signata project. Use this website to learn everything about the Signata dApps, the Signata token (SATA), and the Signata DAO token (dSATA).
+This is the documentation website for the Signata project. Use this website to learn everything about the Signata dApps and the Signata DAO..
 
 The website is split into the following sections. Use the navigation menu, or start browsing with the links below:
 
