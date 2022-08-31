@@ -64,7 +64,7 @@ Connect your wallet and click **Continue**.
 
 Fill out the description from the proposal information defined on the GitHub proposal and click **Continue**.
 
-![](<../.gitbook/assets/image (9).png>)
+![](<../.gitbook/assets/image (9) (2).png>)
 
 Depending on what actions the proposal is meant to take, you must define at least one for the proposal.
 

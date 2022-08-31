@@ -28,7 +28,7 @@ These addresses may change at any time.
 
 | Name            | Address                                      |
 | --------------- | -------------------------------------------- |
-| SignataIdentity | `0xB24e28A4B7fED6d59D3BD06af586f02fDdfa6385` |
+| SignataIdentity | 0x5b586b1D0c93B94C36759490fabDc9C207EB4910   |
 | AtomicSwap      | `0x2dc3cd99b4e31805156886834e233903ff394032` |
 | SignataRight    | `0xb6D15fEECf4D7643d018eD5280A79c79f1Ed2602` |
 

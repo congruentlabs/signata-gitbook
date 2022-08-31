@@ -19,6 +19,7 @@
 * [Rights Management](guides/rights-management.md)
 * [Veriswap](guides/veriswap.md)
 * [Identity Provider Installation](guides/identity-provider-installation.md)
+* [Contract Deployment](guides/contract-deployment.md)
 
 ## Extras
 

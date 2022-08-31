@@ -46,7 +46,7 @@ Now, you must **Approve** and then **Open Swap**. Both of these actions require 
 
 ![](<../.gitbook/assets/image (9) (1).png>)
 
-![](<../.gitbook/assets/image (10) (1).png>)
+![](<../.gitbook/assets/image (10) (1) (1).png>)
 
 Once the swap has been opened on the blockchain, you will see a confirmation message. You also now cannot create any more swaps until the currently open swap is completed or canceled.
 
@@ -58,21 +58,21 @@ You will see a link at the top of the page to **Manage Your Swap**.
 
 Click on the button to open the swap information page. You can give the URL of the page you're looking at to the executor so they can complete the swap.
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (16) (1).png>)
 
 ## Execute a Swap
 
 To execute a swap, go to the swap URL provided to you by the creator of the swap and connect your wallet.
 
-![](<../.gitbook/assets/image (12).png>)
+![](<../.gitbook/assets/image (12) (1).png>)
 
 You will be shown details about the swap for you to review before you execute.
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11) (1).png>)
 
 If you are content with the swap details, click **Approve** and then **Complete Swap**. Both of these actions require signatures submitted on the blockchain, and will incur network gas fees. Approval is needed to let the Veriswap contract transfer your tokens out of your wallet, and Complete Swap executes the swap record on the chain.
 
-![](<../.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (13) (1).png>)
 
 ## Change Executor or Cancel Swap
 
@@ -82,7 +82,7 @@ If you need to change the executor of a swap after it's been created, you can si
 
 Down the bottom you will find a textbox to enter a new executor address. Provide a new valid wallet address and click **Change Executor**.
 
-![](<../.gitbook/assets/image (5) (1) (1).png>)
+![](<../.gitbook/assets/image (5) (1) (1) (1).png>)
 
 If you wish to cancel the swap, just click **Cancel Swap** at the bottom of the page.
 

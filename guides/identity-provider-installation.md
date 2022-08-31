@@ -42,17 +42,17 @@ Once provisioned, add a new database called **keycloak**.
 
 Add a new user also called **keycloak**.
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (2).png>)
 
 Once you've deployed the DigitalOcean App in later steps, edit the database to add it as a **Trusted Source** to limit network traffic to only the keycloak app.
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (1).png>)
 
 ### Container Registry
 
 Create a container registry to host the built docker images for the keycloak app.
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (3).png>)
 
 In the keycloak-signata-extension repository, use PowerShell to run **scripts/build\_production.ps1**. This will compile the container, and push the image to your registry.
 

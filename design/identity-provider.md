@@ -24,17 +24,17 @@ auth.signata.net
 
 Click **Add Realm**.
 
-![](<../.gitbook/assets/image (24).png>)
+![](<../.gitbook/assets/image (24) (1).png>)
 
 Set the name to **Signata** and click **Create**.
 
-![](<../.gitbook/assets/image (4) (2).png>)
+![](<../.gitbook/assets/image (4) (2) (2).png>)
 
 ### Configure Authentication
 
 Click **Authentication** in the left menu.
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (17) (2).png>)
 
 In Flows, click **New**.
 
@@ -42,7 +42,7 @@ In Flows, click **New**.
 
 Set the Alias to **Signata** and click **Save**.
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (10) (1).png>)
 
 Click **Add execution**.
 
@@ -58,13 +58,13 @@ Set the Signata Signature to **REQUIRED**. Under Actions click **Config**.
 
 Set the Alias to **Signata**, the Infura Id and Node URLs to the keys provided by Infura. Set the Timeout to **120**. Click **Save**.
 
-![](<../.gitbook/assets/image (14).png>)
+![](<../.gitbook/assets/image (14) (2).png>)
 
 ### Create Client
 
 Click on **Clients** in the left menu.
 
-![](<../.gitbook/assets/image (5) (1).png>)
+![](<../.gitbook/assets/image (5) (1) (1).png>)
 
 
 
