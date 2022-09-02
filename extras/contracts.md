@@ -100,12 +100,5 @@ These addresses may change at any time.
 
 ## Polygon
 
-| Name            | Address                                      |
-| --------------- | -------------------------------------------- |
-| SATA Token      | `TBC`                                        |
-| SignataIdentity | `0x545f8952A5cADF63DeE9658C189B309FAd5d789f` |
-| SignataRight    | `TBC`                                        |
-| Veriswap        | `TBC`                                        |
-| Deployer        | `0x042fc4ea3f836e1ea5dc4fb70ec90ded51c09eca` |
-| Liquidity Vault | `TBC`                                        |
+0x545f8952A5cADF63DeE9658C189B309FAd5d789f
 
