@@ -16,7 +16,7 @@ These contracts are still in development and may change at a later date. Use thi
 | dSATA Token     | `0x49428f057dd9d20a8e4c6873e98afd8cd7146e3b` |
 | Governor        | `0x3D3255D21654B9a8325DfE6353ac6B37352Eb80B` |
 | Timelock        | `0x30b0106d9140902d7d495a7f21d282852e9f59d8` |
-| SignataIdentity | `0x6B47e26A52a9B5B467b98142E382c081eA97B0fc` |
+| SignataIdentity | `0x8101429f99aFD10C494F5427E697716c4fD74AcC` |
 | SignataRight    | `0x7c8890a02abd24ff00c4eb1425258ea4b611d300` |
 | Veriswap        | `0x4eB5307c6c72094363a7cd99C1614b28A41dB661` |
 | Deployer        | `0x042fc4ea3f836e1ea5dc4fb70ec90ded51c09eca` |
@@ -37,7 +37,7 @@ These addresses may change at any time.
 | Name            | Address                                      |
 | --------------- | -------------------------------------------- |
 | SATA Token      | `0x6b1C8765C7EFf0b60706b0ae489EB9bb9667465A` |
-| SignataIdentity | `0x2EE533c160eB0488f2Db54DA4523b110E66a96Ff` |
+| SignataIdentity | `0x3ebb4A4e91Ad83BE51F8d596533818b246F4bEe1` |
 | SignataRight    | `0x55E9B159FF6E6cD9188Cc4394db3EC944d467B0d` |
 | Veriswap        | `TBC`                                        |
 | Deployer        | `0xEAD57fE351280E7D905a5E21e9fd7d5bb0Ec97e7` |
@@ -48,7 +48,7 @@ These addresses may change at any time.
 | Name            | Address                                      |
 | --------------- | -------------------------------------------- |
 | SATA Token      | `0xbec0A9aEa58b6a0c0f05a03078f7E7Dcecc13A95` |
-| SignataIdentity | `0x3ebb4A4e91Ad83BE51F8d596533818b246F4bEe1` |
+| SignataIdentity | `0x2D8C199371bAC9f63A5a0EE4448A5b329531eCdF` |
 | SignataRight    | `0x0BaFDe3aDAd83b679FAE5E9793Cd44ab247c6096` |
 | Veriswap        | `TBC`                                        |
 | Deployer        | `0x042fc4ea3f836e1ea5dc4fb70ec90ded51c09eca` |
@@ -81,19 +81,31 @@ These addresses may change at any time.
 | Name            | Address                                      |
 | --------------- | -------------------------------------------- |
 | SATA Token      | `0x3ebb4A4e91Ad83BE51F8d596533818b246F4bEe1` |
-| SignataIdentity | `0x545f8952A5cADF63DeE9658C189B309FAd5d789f` |
+| SignataIdentity | `0xbec0A9aEa58b6a0c0f05a03078f7E7Dcecc13A95` |
 | SignataRight    | `0xe1A0f23b29fba2c82d8af15D354aaE048AE1Cd13` |
 | Veriswap        | `TBC`                                        |
 | Deployer        | `0x042fc4ea3f836e1ea5dc4fb70ec90ded51c09eca` |
 | Liquidity Vault | `TBC`                                        |
 
-### Fantom Mainnet
+## Fantom Mainnet
 
 | Name            | Address                                      |
 | --------------- | -------------------------------------------- |
 | SATA Token      | `0x3ebb4A4e91Ad83BE51F8d596533818b246F4bEe1` |
-| SignataIdentity | `0x545f8952A5cADF63DeE9658C189B309FAd5d789f` |
+| SignataIdentity | `0x0BaFDe3aDAd83b679FAE5E9793Cd44ab247c6096` |
 | SignataRight    | `0xe1A0f23b29fba2c82d8af15D354aaE048AE1Cd13` |
 | Veriswap        | `TBC`                                        |
 | Deployer        | `0x042fc4ea3f836e1ea5dc4fb70ec90ded51c09eca` |
 | Liquidity Vault | `TBC`                                        |
+
+## Polygon
+
+| Name            | Address                                      |
+| --------------- | -------------------------------------------- |
+| SATA Token      | `TBC`                                        |
+| SignataIdentity | `0x545f8952A5cADF63DeE9658C189B309FAd5d789f` |
+| SignataRight    | `TBC`                                        |
+| Veriswap        | `TBC`                                        |
+| Deployer        | `0x042fc4ea3f836e1ea5dc4fb70ec90ded51c09eca` |
+| Liquidity Vault | `TBC`                                        |
+
