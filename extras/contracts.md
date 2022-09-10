@@ -26,11 +26,14 @@ These contracts are still in development and may change at a later date. Use thi
 
 These addresses may change at any time.
 
-| Name            | Address                                      |
-| --------------- | -------------------------------------------- |
-| SignataIdentity | 0x5b586b1D0c93B94C36759490fabDc9C207EB4910   |
-| AtomicSwap      | `0x2dc3cd99b4e31805156886834e233903ff394032` |
-| SignataRight    | `0xb6D15fEECf4D7643d018eD5280A79c79f1Ed2602` |
+| Name                  | Address                                      |
+| --------------------- | -------------------------------------------- |
+| SignataIdentity       | 0x5b586b1D0c93B94C36759490fabDc9C207EB4910   |
+| AtomicSwap            | `0x2dc3cd99b4e31805156886834e233903ff394032` |
+| SignataRight          | `0x0389547a55e7dd537d66CB67BFEa3abF28201645` |
+| ClaimRight            | `0x32e77B2b52a082Be171058B3f26268790C25E6f1` |
+| KYC Signing Authority | `0xfB855d8a9f0c184F3d1Fc0C50dE87C56a67b3213` |
+| Token                 | `0x94358A8dfD46ACF6756a67Bc15c8F373510aCcd9` |
 
 ## Binance Smart Chain Mainnet
 
@@ -100,5 +103,12 @@ These addresses may change at any time.
 
 ## Polygon
 
-0x545f8952A5cADF63DeE9658C189B309FAd5d789f
+| Name            | Address                                      |
+| --------------- | -------------------------------------------- |
+| SATA Token      | `TBC`                                        |
+| SignataIdentity | `0x545f8952A5cADF63DeE9658C189B309FAd5d789f` |
+| SignataRight    | `TBC`                                        |
+| Veriswap        | `TBC`                                        |
+| Deployer        | `0x042fc4ea3f836e1ea5dc4fb70ec90ded51c09eca` |
+| Liquidity Vault | `TBC`                                        |
 
