@@ -4,7 +4,7 @@ auth.signata.net
 
 ## Overview
 
-
+<figure><img src="../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
 ## Authentication
 

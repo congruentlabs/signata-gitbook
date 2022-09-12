@@ -1,5 +1,9 @@
 # Veriswap
 
+{% hint style="warning" %}
+This service is under design and development, and subject to change at any time.
+{% endhint %}
+
 Guides on using Veriswap can be found here:
 
 {% content-ref url="../guides/veriswap.md" %}
