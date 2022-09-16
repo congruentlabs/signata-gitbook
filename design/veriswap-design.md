@@ -1,4 +1,4 @@
-# Veriswap
+# Veriswap Design
 
 {% hint style="warning" %}
 This service is under design and development, and subject to change at any time.
@@ -6,8 +6,8 @@ This service is under design and development, and subject to change at any time.
 
 Guides on using Veriswap can be found here:
 
-{% content-ref url="../guides/veriswap.md" %}
-[veriswap.md](../guides/veriswap.md)
+{% content-ref url="../guides/veriswap-guide.md" %}
+[veriswap-guide.md](../guides/veriswap-guide.md)
 {% endcontent-ref %}
 
 ### Code Repository

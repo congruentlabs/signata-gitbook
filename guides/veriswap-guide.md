@@ -1,9 +1,9 @@
-# Veriswap
+# Veriswap Guide
 
 ## Veriswap Design
 
-{% content-ref url="../design/veriswap.md" %}
-[veriswap.md](../design/veriswap.md)
+{% content-ref url="../design/veriswap-design.md" %}
+[veriswap-design.md](../design/veriswap-design.md)
 {% endcontent-ref %}
 
 ## Create a Swap
