@@ -62,6 +62,10 @@ A confirmation window will appear. Click **Delete Identity**.
 
 ## Independent Identities
 
+{% hint style="warning" %}
+Independent Identities are an expert mode feature. Only use these identities if you know how to handle them.
+{% endhint %}
+
 ### Creating an Independent Identity
 
 In the **Add Identity** section, click on the **Independent** tab.
@@ -114,44 +118,3 @@ A confirmation window will appear. Click **Delete Identity**.
 
 ### Delegating an Independent Identity
 
-## Nano Identities
-
-{% hint style="info" %}
-A nano identity is a limited version of a Signata identity. If you want to try out Signata, you can register your connected wallet as a Nano Identity. If you hold 10 SATA it is free to create a Nano identity, otherwise you'll have to pay a small fee.
-{% endhint %}
-
-### Creating a Nano Identity
-
-In the **Add Identity** section, click on the **Nano** tab.
-
-Click **Create Nano Identity**.
-
-Confirm the transaction with your wallet.
-
-### Locking a Nano Identity
-
-{% hint style="info" %}
-Locking your identity will prevent it from being used to authenticate or by smart contracts that use Signata identities. You should only lock your identity if you think your wallet has been compromised.
-{% endhint %}
-
-{% hint style="danger" %}
-Undelegated Nano Identities **cannot** be unlocked once locked. Make sure you only lock your identity if you genuinely believe it has been compromised.
-{% endhint %}
-
-In the **Nano Identity** section, click **Lock**.
-
-A confirmation window will appear. Click **Lock**.
-
-Confirm the transaction with your wallet.
-
-### Unlocking a Nano Identity
-
-
-
-### Delegating a Nano Identity
-
-In the **Nano Identity** section, click **Delegate**.
-
-A confirmation window will appear. Set the address that you want to delegate to and click **Set New Delegate**.
-
-Confirm the transaction with your wallet.
