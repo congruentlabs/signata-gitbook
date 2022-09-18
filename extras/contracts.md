@@ -73,38 +73,68 @@ These addresses may change at any time.
 
 ## Metis Andromeda Network
 
-| Name                         | Address                                      |
-| ---------------------------- | -------------------------------------------- |
-| SATA Token                   | `0x3ebb4A4e91Ad83BE51F8d596533818b246F4bEe1` |
-| SignataIdentity              | `0xbec0A9aEa58b6a0c0f05a03078f7E7Dcecc13A95` |
-| SignataRight                 | `0x5120DB1015610BD7088157359ce92f3a4906faf7` |
-| VeriswapERC20                | `0x03DE09777952082B12C968785FfDC898bfBb3F52` |
-| Deployer                     | `0x042fc4ea3f836e1ea5dc4fb70ec90ded51c09eca` |
-| Liquidity Vault              | `TBC`                                        |
-| Congruent Labs AU KYC Rights | `0x8f2F667bf1E3411FC2f6ef8f12F6aD1E939a13CA` |
+| Name            | Address                                      |
+| --------------- | -------------------------------------------- |
+| SATA Token      | `0x3ebb4A4e91Ad83BE51F8d596533818b246F4bEe1` |
+| SignataIdentity | `0xbec0A9aEa58b6a0c0f05a03078f7E7Dcecc13A95` |
+| SignataRight    | `0x5120DB1015610BD7088157359ce92f3a4906faf7` |
+| VeriswapERC20   | `0x03DE09777952082B12C968785FfDC898bfBb3F52` |
+| Deployer        | `0x042fc4ea3f836e1ea5dc4fb70ec90ded51c09eca` |
+| Liquidity Vault | `TBC`                                        |
 
 ## Fantom Mainnet
 
-| Name                         | Address                                      |
-| ---------------------------- | -------------------------------------------- |
-| SATA Token                   | `0x3ebb4A4e91Ad83BE51F8d596533818b246F4bEe1` |
-| SignataIdentity              | `0x0BaFDe3aDAd83b679FAE5E9793Cd44ab247c6096` |
-| SignataRight                 | `0x5120db1015610bd7088157359ce92f3a4906faf7` |
-| VeriswapERC20                | `0x03DE09777952082B12C968785FfDC898bfBb3F52` |
-| Deployer                     | `0x042fc4ea3f836e1ea5dc4fb70ec90ded51c09eca` |
-| Liquidity Vault              | `TBC`                                        |
-| Congruent Labs AU KYC Rights | `0x8f2F667bf1E3411FC2f6ef8f12F6aD1E939a13CA` |
+| Name            | Address                                      |
+| --------------- | -------------------------------------------- |
+| SATA Token      | `0x3ebb4A4e91Ad83BE51F8d596533818b246F4bEe1` |
+| SignataIdentity | `0x0BaFDe3aDAd83b679FAE5E9793Cd44ab247c6096` |
+| SignataRight    | `0x5120db1015610bd7088157359ce92f3a4906faf7` |
+| VeriswapERC20   | `0x03DE09777952082B12C968785FfDC898bfBb3F52` |
+| Deployer        | `0x042fc4ea3f836e1ea5dc4fb70ec90ded51c09eca` |
+| Liquidity Vault | `TBC`                                        |
 
 ## Polygon
 
-| Name                         | Address                                      |
-| ---------------------------- | -------------------------------------------- |
-| SATA Token                   | `TBC`                                        |
-| SignataIdentity              | `0x545f8952A5cADF63DeE9658C189B309FAd5d789f` |
-| SignataRight                 | `0xe1A0f23b29fba2c82d8af15D354aaE048AE1Cd13` |
-| VeriswapERC20                | `0xbec0A9aEa58b6a0c0f05a03078f7E7Dcecc13A95` |
-| Deployer                     | `0x042fc4ea3f836e1ea5dc4fb70ec90ded51c09eca` |
-| Liquidity Vault              | `TBC`                                        |
-| Congruent Labs AU KYC Rights | `0x3ebb4A4e91Ad83BE51F8d596533818b246F4bEe1` |
+| Name            | Address                                      |
+| --------------- | -------------------------------------------- |
+| SATA Token      | `TBC`                                        |
+| SignataIdentity | `0x545f8952A5cADF63DeE9658C189B309FAd5d789f` |
+| SignataRight    | `0xe1A0f23b29fba2c82d8af15D354aaE048AE1Cd13` |
+| VeriswapERC20   | `0xbec0A9aEa58b6a0c0f05a03078f7E7Dcecc13A95` |
+| Deployer        | `0x042fc4ea3f836e1ea5dc4fb70ec90ded51c09eca` |
+| Liquidity Vault | `TBC`                                        |
 
-[https://my.signata.net/cl-au-kyc-nft-v1.json](https://my.signata.net/cl-au-kyc-nft-v1.json)
+## Rights
+
+### Congruent Labs AU KYC Rights
+
+{% embed url="https://my.signata.net/cl-au-kyc-nft-v1.json" %}
+Right Schema
+{% endembed %}
+
+| Network         | Address                                      |
+| --------------- | -------------------------------------------- |
+| Ethereum        | `0xd5Aea1C83b57B03Ebe7D71F3dbee7Ae79cB9A4F2` |
+| Rinkeby         | `0x32e77B2b52a082Be171058B3f26268790C25E6f1` |
+| BSC             | `0x2D8C199371bAC9f63A5a0EE4448A5b329531eCdF` |
+| Avalanche       | `0x84F104d014Cc61FD6Ce2a9172eD9349e2135F6eF` |
+| Metis Andromeda | `0x8f2F667bf1E3411FC2f6ef8f12F6aD1E939a13CA` |
+| Fantom          | `0x8f2F667bf1E3411FC2f6ef8f12F6aD1E939a13CA` |
+| Polygon         | `0x3ebb4A4e91Ad83BE51F8d596533818b246F4bEe1` |
+
+### SATA 100 Membership
+
+{% embed url="https://my.signata.net/sata-100-membership.json" %}
+Right Schema
+{% endembed %}
+
+| Network         | Address                                      |
+| --------------- | -------------------------------------------- |
+| Ethereum        | `0x2AEb1c971758902bFe39904d57A048E6B7C4Be45` |
+| Rinkeby         | `0xCf9C18bf381b28ea97b159ae9a0605939D7a1Fa2` |
+| BSC             | `0x84F104d014Cc61FD6Ce2a9172eD9349e2135F6eF` |
+| Avalanche       | `0xAF2877137824179FB5B65eD2dE5903F0483aC163` |
+| Metis Andromeda | `0x4D6A137B248dB37672D99d33f8696012fA4Bd2F3` |
+| Fantom          | `0x4D6A137B248dB37672D99d33f8696012fA4Bd2F3` |
+| Polygon         | `0x8f2F667bf1E3411FC2f6ef8f12F6aD1E939a13CA` |
+
