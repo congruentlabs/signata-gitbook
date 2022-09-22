@@ -24,8 +24,8 @@
 ## Extras
 
 * [Examples](extras/examples.md)
-* [Contracts](extras/contracts.md)
 * [Links](extras/links.md)
+* [Contracts](extras/contracts.md)
 
 ## API
 

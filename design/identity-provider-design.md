@@ -1,4 +1,4 @@
-# Identity Provider
+# Identity Provider Design
 
 auth.signata.net
 
@@ -54,7 +54,7 @@ Select **Signata Signature** and click **Save**.
 
 Set the Signata Signature to **REQUIRED**. Under Actions click **Config**.
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (2).png>)
 
 Set the Alias to **Signata**, the Infura Id and Node URLs to the keys provided by Infura. Set the Timeout to **120**. Click **Save**.
 

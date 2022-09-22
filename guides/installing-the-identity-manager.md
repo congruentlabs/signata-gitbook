@@ -1,4 +1,4 @@
-# Identity Provider Installation
+# Installing the Identity Manager
 
 {% embed url="https://m.do.co/c/7802e11be119" %}
 
@@ -38,7 +38,7 @@ Create a new **Database Cluster** on DigitalOcean. Select your desired datacente
 
 Once provisioned, add a new database called **keycloak**.
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 Add a new user also called **keycloak**.
 

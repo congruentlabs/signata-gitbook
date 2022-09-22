@@ -78,7 +78,7 @@ If you are content with the swap details, click **Approve** and then **Complete 
 
 If you need to change the executor of a swap after it's been created, you can simply open up your created swap. You'll see a message at the top confirming that you're looking at your own swap, and a warning that you're not the designed executor of it.
 
-![](<../.gitbook/assets/image (2) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (1).png>)
 
 Down the bottom you will find a textbox to enter a new executor address. Provide a new valid wallet address and click **Change Executor**.
 

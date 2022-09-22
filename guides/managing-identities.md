@@ -1,4 +1,4 @@
-# Identity Management
+# Managing Identities
 
 To access the Signata Identity Manager, use the following link:
 
@@ -10,9 +10,19 @@ To access the Signata Identity Manager, use the following link:
 
 In the **Add Identity** section, click on the **Wallet** tab.
 
-Click **Generate** to randomly generate a new set of Identity seeds. The delegate for your identity will be your connected wallet.
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-Click **Add Identity**.
+Click **Generate** to randomly generate a new set of Identity seeds. The delegate for your identity will be your connected wallet. Click **Add Identity**.
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+Your wallet will pop up asking you for a Signature. **This is not a payment signature**, this signature just proves you control your wallet and will let you save your identity data to the chain.
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+### Registering your Wallet Identity
+
+
 
 ### Renaming a Wallet Identity
 
@@ -25,10 +35,6 @@ In your identity, click **Rename**.
 A confirmation window will appear. Specify your new identity name and click **Save New Name**.
 
 ### Registering a Wallet Identity
-
-{% hint style="info" %}
-Registering an identity writes it to the blockchain. This will incur a transaction fee from the network. If you hold 10 SATA it is free to register an identity, otherwise you'll have to pay a small fee.
-{% endhint %}
 
 In your identity, click **Register**.
 

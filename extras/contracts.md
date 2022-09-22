@@ -51,13 +51,13 @@ These contracts are still in development and may change at a later date. Use thi
 
 | Network   | Contract                                     |
 | --------- | -------------------------------------------- |
-| Ethereum  | `0x24b6bdb190720Ac0335BB34cE67725CE5EEF6348` |
+| Ethereum  | `0x9D416D72ec596B830889aBF95037AC7E0f887Aa6` |
 | Rinkeby   | `0x2dc3cd99b4e31805156886834e233903ff394032` |
-| BSC       | `0x8f2F667bf1E3411FC2f6ef8f12F6aD1E939a13CA` |
-| Avalanche | `0x4D6A137B248dB37672D99d33f8696012fA4Bd2F3` |
-| Metis     | `0x03DE09777952082B12C968785FfDC898bfBb3F52` |
-| Fantom    | `0x03DE09777952082B12C968785FfDC898bfBb3F52` |
-| Polygon   | `0xbec0A9aEa58b6a0c0f05a03078f7E7Dcecc13A95` |
+| BSC       | `0x4D6A137B248dB37672D99d33f8696012fA4Bd2F3` |
+| Avalanche | `0xf7aA340c32B7CB6aE9Eb24Da659b484E67987bB3` |
+| Metis     | `0xE73f02493a60f1c8599deffE71cDFFd23E3A9e45` |
+| Fantom    | `0xE73f02493a60f1c8599deffE71cDFFd23E3A9e45` |
+| Polygon   | `0x4D6A137B248dB37672D99d33f8696012fA4Bd2F3` |
 | Legacy    | TBC                                          |
 
 ## Deployer
