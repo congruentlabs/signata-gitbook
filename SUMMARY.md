@@ -16,7 +16,8 @@
 
 * [DAO Guide](guides/dao-guide.md)
 * [Managing Identities](guides/managing-identities.md)
-* [Managing Rights](guides/managing-rights.md)
+* [Purchasing Rights](guides/purchasing-rights.md)
+* [Building Rights to Claim](guides/building-rights-to-claim.md)
 * [Veriswap Guide](guides/veriswap-guide.md)
 * [Installing the Identity Manager](guides/installing-the-identity-manager.md)
 * [Deploying Contracts](guides/deploying-contracts.md)

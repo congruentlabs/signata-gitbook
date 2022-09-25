@@ -1,4 +1,4 @@
-# Identity Manager
+# Identity Manager Design
 
 {% hint style="warning" %}
 Note that the examples in this documentation are provided in JavaScript and are derived from the signata-web source code. The examples are one way to achieve the desired results for on-chain interactions, but are not the only way to do so.
@@ -172,7 +172,7 @@ console.log(s.toString('hex'));
 console.log(v);
 ```
 
-![](<../.gitbook/assets/image (22).png>)
+![](<../.gitbook/assets/image (22) (1).png>)
 
 ### Standard Identity::Lock
 

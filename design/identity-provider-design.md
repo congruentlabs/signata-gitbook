@@ -38,7 +38,7 @@ Click **Authentication** in the left menu.
 
 In Flows, click **New**.
 
-![](<../.gitbook/assets/image (7) (1).png>)
+![](<../.gitbook/assets/image (7).png>)
 
 Set the Alias to **Signata** and click **Save**.
 
@@ -50,7 +50,7 @@ Click **Add execution**.
 
 Select **Signata Signature** and click **Save**.
 
-![](<../.gitbook/assets/image (15).png>)
+![](<../.gitbook/assets/image (15) (2).png>)
 
 Set the Signata Signature to **REQUIRED**. Under Actions click **Config**.
 

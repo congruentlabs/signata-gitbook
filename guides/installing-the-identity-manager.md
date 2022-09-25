@@ -46,7 +46,7 @@ Add a new user also called **keycloak**.
 
 Once you've deployed the DigitalOcean App in later steps, edit the database to add it as a **Trusted Source** to limit network traffic to only the keycloak app.
 
-![](<../.gitbook/assets/image (5) (1).png>)
+![](<../.gitbook/assets/image (5) (1) (2).png>)
 
 ### Container Registry
 
