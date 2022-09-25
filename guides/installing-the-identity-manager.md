@@ -38,7 +38,7 @@ Create a new **Database Cluster** on DigitalOcean. Select your desired datacente
 
 Once provisioned, add a new database called **keycloak**.
 
-![](<../.gitbook/assets/image (2) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (2).png>)
 
 Add a new user also called **keycloak**.
 

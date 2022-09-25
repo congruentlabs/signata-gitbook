@@ -38,7 +38,7 @@ Click **Authentication** in the left menu.
 
 In Flows, click **New**.
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (7) (1).png>)
 
 Set the Alias to **Signata** and click **Save**.
 

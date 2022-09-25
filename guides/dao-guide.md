@@ -116,7 +116,7 @@ Proposals can only be executed if they've been queued in the timelock and not st
 
 To execute a proposal, open **Manage Proposals** on the Tally DAO interface and click **Execute**. You will be prompted by your wallet software to confirm the transaction, which will incur a network gas cost.
 
-![](<../.gitbook/assets/image (19).png>)
+![](<../.gitbook/assets/image (19) (1).png>)
 
 Once the proposal has been executed the proposal process is complete.
 

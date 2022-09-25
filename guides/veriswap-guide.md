@@ -34,7 +34,7 @@ Now specify which token you want to receive in the swap. Once you provide a vali
 
 The swap won't check that the executor has enough tokens to complete the swap at this stage.
 
-![](<../.gitbook/assets/image (4) (1).png>)
+![](<../.gitbook/assets/image (4) (1) (1).png>)
 
 Now set the executor of the swap. This is the wallet address of the other party that you want to complete the swap. Nobody else but the executor can complete the swap.
 
@@ -72,7 +72,7 @@ You will be shown details about the swap for you to review before you execute.
 
 If you are content with the swap details, click **Approve** and then **Complete Swap**. Both of these actions require signatures submitted on the blockchain, and will incur network gas fees. Approval is needed to let the Veriswap contract transfer your tokens out of your wallet, and Complete Swap executes the swap record on the chain.
 
-![](<../.gitbook/assets/image (13) (1).png>)
+![](<../.gitbook/assets/image (13) (1) (1).png>)
 
 ## Change Executor or Cancel Swap
 
