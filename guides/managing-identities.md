@@ -10,7 +10,7 @@ To access the Signata Identity Manager, use the following link:
 
 In the **Add Identity** section, click on the **Wallet** tab.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 Click **Generate** to randomly generate a new set of Identity seeds. The delegate for your identity will be your connected wallet. Click **Add Identity**.
 
@@ -24,7 +24,7 @@ Your wallet will pop up asking you for a Signature. **This is not a payment sign
 
 Once an identity is created it needs to be **registered** on a blockchain to be usable.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (2).png" alt=""><figcaption></figcaption></figure>
 
 Sign the request from your wallet to register the identity.
 
@@ -40,7 +40,7 @@ Identity names are just so you can easily identify which identity is which. The 
 
 In your identity, click **Rename**.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
 A confirmation window will appear. Specify your new identity name and click **Save New Name**.
 
@@ -66,7 +66,7 @@ A confirmation window will appear. Click **Delete Identity**.
 
 Click **Lock**.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 A confirmation popup will appear. Click **Lock Identity**.
 
@@ -75,7 +75,7 @@ A confirmation popup will appear. Click **Lock Identity**.
 Confirm the signature request in your browser. Your wallet may show a warning about signing the message - this warning can be ignored.\
 
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 Once you have signed the message, confirm the transaction in your web3 wallet.
 
@@ -85,7 +85,7 @@ Once you have signed the message, confirm the transaction in your web3 wallet.
 
 Click **Unlock**.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 A confirmation popup will appear. Click **Unlock Identity**.
 
@@ -93,5 +93,5 @@ A confirmation popup will appear. Click **Unlock Identity**.
 
 Confirm the transaction in your web3 wallet.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
 

@@ -1,4 +1,4 @@
-# DAO Guide
+# Using the DAO
 
 {% hint style="warning" %}
 Some of the screenshots and content in this page are copied from another project's DAO documentation. These will be updated over time to be derived from the Signata DAO, but for now they still illustrate the exact same process.
@@ -26,7 +26,7 @@ To do this, open the Signata DAO on Tally.xyz:​​
 
 At the top of the page, click **Delegate vote**:
 
-![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (2).png>)
 
 Connect your MetaMask or WalletConnect wallet:
 
@@ -78,7 +78,7 @@ To define a custom action, paste in a contract address to the **Target contract 
 
 Once you've set the address, select the **Contract method** you want the vote to call. Then any parameters that are required for that contract method will appear, and you will need to define the values that they're changing to. In the example below the action is to call setVotingPeriod with the newVotingPeriod set to 1000.
 
-![](<../.gitbook/assets/image (6) (1).png>)
+![](<../.gitbook/assets/image (6).png>)
 
 {% hint style="warning" %}
 The DAO interface won't warn you if your proposal actions are technically possible or not. Some function calls require the DAO contract to hold certain rights, like ownership over another contract. If you aren't sure what you're doing, consult the DAO Proposal Managers for advice.

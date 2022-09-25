@@ -1,4 +1,4 @@
-# Veriswap Guide
+# Using Veriswap
 
 ## Veriswap Design
 
@@ -28,7 +28,7 @@ When you've pasted in a valid ERC20 token address you can then specify the amoun
 
 ![](<../.gitbook/assets/image (1) (1).png>)
 
-![](<../.gitbook/assets/image (8) (1).png>)
+![](<../.gitbook/assets/image (8) (1) (1).png>)
 
 Now specify which token you want to receive in the swap. Once you provide a valid ERC20 token address you will be able to specify how many tokens you will receive in the swap.
 
@@ -40,11 +40,11 @@ Now set the executor of the swap. This is the wallet address of the other party 
 
 Specifying the executor will reveal extra options to Require Signata Identity and Enforce Risk Detection. You can enable these if you wish for the swap.
 
-![](<../.gitbook/assets/image (6) (1) (1).png>)
+![](<../.gitbook/assets/image (6) (1).png>)
 
 Now, you must **Approve** and then **Open Swap**. Both of these actions require signatures submitted on the blockchain, and will incur network gas fees. Approval is needed to let the Veriswap contract transfer your tokens out of your wallet, and Open Swap creates the swap record on the chain.
 
-![](<../.gitbook/assets/image (9) (1) (1).png>)
+![](<../.gitbook/assets/image (9) (1).png>)
 
 ![](<../.gitbook/assets/image (10) (1) (1).png>)
 

@@ -6,8 +6,8 @@ This service is under design and development, and subject to change at any time.
 
 Guides on using Veriswap can be found here:
 
-{% content-ref url="../guides/veriswap-guide.md" %}
-[veriswap-guide.md](../guides/veriswap-guide.md)
+{% content-ref url="../guides/using-veriswap.md" %}
+[using-veriswap.md](../guides/using-veriswap.md)
 {% endcontent-ref %}
 
 ### Code Repository

@@ -2,8 +2,8 @@
 
 Guides on using the DAO can be found here:
 
-{% content-ref url="../guides/dao-guide.md" %}
-[dao-guide.md](../guides/dao-guide.md)
+{% content-ref url="../guides/using-the-dao.md" %}
+[using-the-dao.md](../guides/using-the-dao.md)
 {% endcontent-ref %}
 
 ## Overview

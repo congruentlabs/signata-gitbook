@@ -6,20 +6,20 @@
 ## Design
 
 * [Overview](design/overview.md)
-* [Identity Manager Design](design/identity-manager-design.md)
-* [Identity Provider Design](design/identity-provider-design.md)
+* [Identity Manager Design](design/identity-manager.md)
+* [Identity Provider Design](design/identity-provider.md)
 * [Signata DAO Design](design/signata-dao-design.md)
 * [Veriswap Design](design/veriswap-design.md)
 * [Risk Management Design](design/risk-management-design.md)
 
 ## Guides
 
-* [DAO Guide](guides/dao-guide.md)
 * [Managing Identities](guides/managing-identities.md)
 * [Purchasing Rights](guides/purchasing-rights.md)
+* [Using the DAO](guides/using-the-dao.md)
+* [Using Veriswap](guides/using-veriswap.md)
 * [Building Rights to Claim](guides/building-rights-to-claim.md)
-* [Veriswap Guide](guides/veriswap-guide.md)
-* [Installing the Identity Manager](guides/installing-the-identity-manager.md)
+* [Installing the Identity Manager](guides/identity-provider-installation.md)
 * [Deploying Contracts](guides/deploying-contracts.md)
 
 ## Extras

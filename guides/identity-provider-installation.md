@@ -1,5 +1,9 @@
 # Installing the Identity Manager
 
+{% hint style="info" %}
+This guide is for developers and integrators.
+{% endhint %}
+
 {% embed url="https://m.do.co/c/7802e11be119" %}
 
 {% hint style="warning" %}
@@ -38,7 +42,7 @@ Create a new **Database Cluster** on DigitalOcean. Select your desired datacente
 
 Once provisioned, add a new database called **keycloak**.
 
-![](<../.gitbook/assets/image (2) (1) (2).png>)
+![](<../.gitbook/assets/image (2).png>)
 
 Add a new user also called **keycloak**.
 
@@ -46,7 +50,7 @@ Add a new user also called **keycloak**.
 
 Once you've deployed the DigitalOcean App in later steps, edit the database to add it as a **Trusted Source** to limit network traffic to only the keycloak app.
 
-![](<../.gitbook/assets/image (5) (1) (2).png>)
+![](<../.gitbook/assets/image (5) (1).png>)
 
 ### Container Registry
 
@@ -81,4 +85,68 @@ Make sure **HTTP Port** in the App configuration is set to **8080**. This should
 
 The keycloak instance will just listen on HTTP. As DO performs the traffic proxying, it will handle all TLS configuration for the public endpoint.
 
-If your deployment fails and you're getting SQL errors, make sure the public URL for your database is correct as well as the port. DO postgres **doesn't** use the standard 5432 port.
+If your deployment fails and you're getting SQL errors, make sure the public URL for your database is correct as well as the port. DO postgres **doesn't** use the standard 5432 port.\
+
+
+## Keycloak Configuration
+
+### Create Realm
+
+Click **Add Realm**.
+
+![](<../.gitbook/assets/image (24) (1).png>)
+
+Set the name to **Signata** and click **Create**.
+
+![](<../.gitbook/assets/image (4) (2) (2).png>)
+
+### Configure Authentication
+
+Click **Authentication** in the left menu.
+
+![](<../.gitbook/assets/image (17) (2).png>)
+
+In Flows, click **New**.
+
+![](<../.gitbook/assets/image (7).png>)
+
+Set the Alias to **Signata** and click **Save**.
+
+![](<../.gitbook/assets/image (10) (1).png>)
+
+Click **Add execution**.
+
+![](<../.gitbook/assets/image (1) (3).png>)
+
+Select **Signata Signature** and click **Save**.
+
+![](<../.gitbook/assets/image (15).png>)
+
+Set the Signata Signature to **REQUIRED**. Under Actions click **Config**.
+
+![](<../.gitbook/assets/image (3).png>)
+
+Set the Alias to **Signata**, the Infura Id and Node URLs to the keys provided by Infura. Set the Timeout to **120**. Click **Save**.
+
+![](<../.gitbook/assets/image (14) (2).png>)
+
+### Create Client
+
+Click on **Clients** in the left menu.
+
+![](<../.gitbook/assets/image (5) (1) (1).png>)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

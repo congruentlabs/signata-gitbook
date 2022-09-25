@@ -1,6 +1,10 @@
-# Managing Rights
+# Building Rights to Claim
 
-Signata Rights are represented as ERC721 Non-Fungible Tokens (NFTs). Each NFT right is defined first as a schema NFT, and then rights are issued against that schema to identities.
+{% hint style="info" %}
+This guide is for developers and integrators.
+{% endhint %}
+
+Signata Rights are represented as ERC721 Non-Fungible Tokens (NFTs), but extended to include schema information within each NFT. Each NFT right is defined first as a schema NFT, and then rights are issued against that schema to identities.
 
 As each schema is unique to a specific service or purpose this document will not dictate how integrators should specifically mint rights for users, but instead this document will illustrate a reference implementation. If you aren't sure how to build out your own rights management solution, use the Links page to reach out to the development community:
 

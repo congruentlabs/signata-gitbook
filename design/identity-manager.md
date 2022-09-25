@@ -20,13 +20,13 @@ Enterprise Identity Managers are dedicated applications for the creation and man
 
 <figure><img src="../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
 
-## Identity Types
+## Identity Definition
 
-### Standard Identity
+
 
 An "Standard" identity is created with 3 keys, an **Identity** key, a **Delegate** key, and a **Security** key.
 
-#### About Key Lifecycles
+### About Key Lifecycles
 
 Each time a private key is used for any publicly-available information (such as digitally signed records), the risk of key material compromise will increase through known-plaintext attacks. Most Public Key Infrastructure systems enforce key life limits (typically 1 to 2 years) on an active key, rolling over to new keys before the key could theoretically become compromised.
 
@@ -34,21 +34,31 @@ Signata will not enforce key lifespan lengths for identities, however the use of
 
 The **recommended approach** to handling keys with Signata identities is to use 3 separate BIP-39 seeds for deriving the 3 keys needed to create each identity.
 
-#### Identity Key
+### Identity Key
 
 The identity key is the core identity identifier. This key is intentionally "useless" in the context of lifecycle management with Signata. That is, it cannot be used to perform lifecycle event management of itself, just to ensure the key material is not used extraneously. It will bear all rights assigned to it, and be used for proving ownership, but all lifecycle events are instead handled by the Delegate Key.
 
-#### Delegate Key
+### Delegate Key
 
 The delegate key is the lifecycle management key for a Signata identity. It is used to lock, unlock, destroy, and rollover identities after they are created.
 
 It is not recommended that these keys be derived from the same seed as the identity key, otherwise a seed compromise will immediately compromise this key as well.
 
-#### Security Key
+### Security Key
 
 The security key is a fallback key, specifically designed to provide recovery mechanisms in the event of a compromise. In ideal circumstances this key should never be needed to be used, it will only be used for important lifecycle events.
 
 It is not recommended that these keys be derived from the same seed as the identity key, otherwise a seed compromise will immediately compromise this key as well.
+
+## Identity Storage
+
+Signata stores no identity data on its servers. All identity records you create are AES256 password-encrypted and stored on IPFS. The actual record stored on IPFS is the entire array object of user identities converted to a JSON string and encrypted.
+
+An IPFS Name key is generated for new user accounts and stored on Signata servers. This Name key is used to provide a consistent link to the same IPFS record, and replace the link with updated records as users make changes.
+
+Signata servers retain the IPFS file name, as well as the account wallet address that created it. This way the Signata Identity Manager doesn't need to retain that information to recover user data on load.
+
+All modifications to identity data stored in IPFS require a signature from the wallet that is pinned to the account. This ensures no unauthorised user can overwrite stored user data. Whilst overwritten data would not be lost, it would be treated as a denial of service attack against users.
 
 ## Identity Lifecycle Management
 
@@ -172,7 +182,7 @@ console.log(s.toString('hex'));
 console.log(v);
 ```
 
-![](<../.gitbook/assets/image (22) (1).png>)
+![](<../.gitbook/assets/image (22).png>)
 
 ### Standard Identity::Lock
 
