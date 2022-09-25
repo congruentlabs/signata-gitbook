@@ -10,7 +10,9 @@ With a registered identity, click **Manage Rights**. If you haven't created a Si
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-For the right you wish to purchase, click **Approve**.
+Rights have prices defined for them. Before you proceed, make sure your wallet holds enough of the listed token to purchase the right.
+
+For the right you wish to purchase, click **Approve**. Approval is letting the rights claiming contract transfer tokens from your wallet. It will only request to approve the specific amount of tokens that the right costs.
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
