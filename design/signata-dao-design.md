@@ -1,4 +1,4 @@
-# Signata DAO
+# Signata DAO Design
 
 Guides on using the DAO can be found here:
 
@@ -70,5 +70,5 @@ dSATA has a 1% swap tax on Uniswap swaps. This is intended to fund liquidity gro
 
 Earlier in the design phase for Signata, plans were put in place to modify voting rights based on NFT rights issued to particular users. This capability is dependent on constructing the means to issue these rights to their respective owners, the ability for them to be claimed by their owners, and for a governance contract to be built to recognise these rights.
 
-The original design for this was for using the SATA token itself to hold these rights and vote. However, because the DAO is instead controlled by dSATA those plans no longer make sense as the tokenomics are different for dSATA. It is still intended to develop this capability, but the parameters for how the governor contract will recognize these rights will be subject to a DAO vote for acceptance.
+The original design for this was for using the SATA token itself to hold these rights and vote. However, because the DAO is instead controlled by dSATA those plans no longer make sense as the tokenomics are different for dSATA. It is still intended to develop this capability, but the parameters for how the governor contract will recognize these rights will be subject to a DAO vote for acceptance (Note: as of 2022-09-22 a proposal has decided to introduce this functionality).
 
