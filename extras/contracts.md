@@ -130,3 +130,11 @@ Right Schema
 | Fantom    | `0x4D6A137B248dB37672D99d33f8696012fA4Bd2F3` |
 | Polygon   | `0x8f2F667bf1E3411FC2f6ef8f12F6aD1E939a13CA` |
 
+## Wrapped Tokens
+
+| Network  | Token   | Address                                      |
+| -------- | ------- | -------------------------------------------- |
+| Ethereum | Signata | `0xC20E9F2e42f31CC7f1D531cc2df152a2b135871A` |
+|          |         |                                              |
+|          |         |                                              |
+
