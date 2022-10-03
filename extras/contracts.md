@@ -4,8 +4,8 @@ This document details all contract addresses for deployed contracts on each netw
 
 Use the relevant block explorer for the network to examine the contract deployment details.
 
-{% hint style="info" %}
-These contracts are still in development and may change at a later date. Use this site to check the latest contract addresses for any integrations you are developing.
+{% hint style="warning" %}
+Signata smart contracts have not undergone a security audit yet.
 {% endhint %}
 
 ## Token
@@ -132,9 +132,12 @@ Right Schema
 
 ## Wrapped Tokens
 
-| Network  | Token   | Address                                      |
-| -------- | ------- | -------------------------------------------- |
-| Ethereum | Signata | `0xC20E9F2e42f31CC7f1D531cc2df152a2b135871A` |
-|          |         |                                              |
-|          |         |                                              |
+Wrapped tokens are provided as reference implementations of wrapping existing ERC20 tokens into KYC-verified alternatives.
+
+| Network  | Token | Address                                      |
+| -------- | ----- | -------------------------------------------- |
+| Ethereum | vSATA | `0xC20E9F2e42f31CC7f1D531cc2df152a2b135871A` |
+| Ethereum | vUSDC | `0x9d8446Ee81d974cee51028eC03803960AcDA051f` |
+| Ethereum | vDAI  | `0xb44b095F626E95FE86E8B880e9eadAc47d51408a` |
+| Ethereum | vUSDT | `0x09877260e069e774D5938e33A7B2CC67bCF472a1` |
 
