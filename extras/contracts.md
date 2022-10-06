@@ -138,6 +138,23 @@ Right Schema
 | Fantom    | `0x4D6A137B248dB37672D99d33f8696012fA4Bd2F3` |
 | Polygon   | `0x8f2F667bf1E3411FC2f6ef8f12F6aD1E939a13CA` |
 
+### Verified Audits Rights
+
+https://my.signata.net/cl-verified-audits-v1.json
+
+| Network   | Address                                    |
+| --------- | ------------------------------------------ |
+| Ethereum  | ``                                         |
+| Rinkeby   | ``                                         |
+| Goerli    | 0x695389D2AB23678E86E3521B47bEE2c503A592A7 |
+| BSC       | ``                                         |
+| Avalanche | ``                                         |
+| Metis     | ``                                         |
+| Fantom    | ``                                         |
+| Polygon   | ``                                         |
+
+
+
 ## Wrapped Tokens
 
 Wrapped tokens are provided as reference implementations of wrapping existing ERC20 tokens into KYC-verified alternatives.
