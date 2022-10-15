@@ -10,7 +10,7 @@ ERC721Schemas are not controlled or managed by Signata, they can be defined by a
 
 Rights normally can only be issued to addresses registered as Signata Identities. Smart contracts do not need to be registered as identities, and rights can also be issued as "unbound" rights. Unbound rights are exactly the same as normal rights, but lose some useful abilities for migration with on-chain identities.
 
-There are 2 optional modifiers for rights: **Transferrable**, and **Revocable**. Transferrable rights can be moved between Signata Identities (or smart contracts), and Revocable rights can be revoked by the minter if it needs to.
+There are 2 optional modifiers for rights: **Transferrable**, and **Revocable**. Transferrable rights can be moved between Signata Identities (or smart contracts), and Revocable rights can be revoked by the minter if it needs to remove access for an identity.
 
 There are no time constraints (like expiration dates) on identities. If rights need to expire after a timespan it is best to track that information within the issuing contract for each right so it can be read by access control systems, or use the revocable modifier and revoke identities on a periodic schedule.
 
