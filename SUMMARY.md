@@ -11,6 +11,7 @@
 * [Signata DAO Design](design/signata-dao-design.md)
 * [Veriswap Design](design/veriswap-design.md)
 * [Risk Management Design](design/risk-management-design.md)
+* [Signata Rights Design](design/signata-rights-design.md)
 
 ## Guides
 
