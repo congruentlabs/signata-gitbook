@@ -32,8 +32,6 @@ Links to exchanges are not endorsements or recommendations, they are only provid
 
 {% embed url="https://app.sushi.com/analytics/tokens/0x3ebb4a4e91ad83be51f8d596533818b246f4bee1?chainId=1" %}
 
-{% embed url="https://p2pb2b.com/trade/SATA_USDT/" %}
-
 {% embed url="https://coinsbit.io/trade_classic/SATA_USDT" %}
 
 {% embed url="https://timex.io/private/trading/SATAUSDT" %}

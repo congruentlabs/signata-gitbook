@@ -8,7 +8,7 @@ Guides on using the DAO can be found here:
 
 ## Overview
 
-The Signata Decentralized Autonomous Organization (DAO) is controlled by the Signata DAO (dSATA) token. This token is entirely separate from the SATA token as the SATA token was launched without the necessary components to be used with an on-chain DAO (namely snapshotting token balances and delegation). In addition, adding the ability to vote with SATA would have added additional gas costs for every use of the token, impacting its utility.
+The Signata Decentralized Autonomous Organization (DAO) is controlled by the Signata DAO (dSATA) token. This token is distinct from the SATA token, as the SATA token was not designed with the necessary components for use with an on-chain DAO (such as snapshotting token balances and delegation). Furthermore, adding the ability to vote with SATA would have increased gas costs for every use of the token, reducing its utility.
 
 The Signata DAO is a derivative of OpenZeppelin's standardization of Compound's Governor contracts:
 

@@ -6,7 +6,9 @@ description: Frequently Asked Questions
 
 ## Where is the whitepaper?
 
-There was a whitepaper for the project, but a living design document here in this documentation website is superior for capturing the current state of the solution design as it evolves.
+There is a whitepaper for the project, but it is recommended to now refer to this documentation website for the latest platform design.
+
+{% embed url="https://sata.technology/sata-whitepaper-2021-03-24.pdf" %}
 
 ## Where is the roadmap?
 
@@ -24,9 +26,11 @@ Congruent Labs also perform some development work on dApps. Because these had sh
 
 Signata smart contracts are Identity **Management** contracts. Signata identities, and any other web3 identity, are all derived from the same cryptographic information. Signata web3 identities do not "compete" with other web3 identities, the smart contracts just provide useful tools to enhance them.
 
+If you develop a web3 identity protocol, reach out to us! We'd love to integrate your identity services with our Signata Rights platform.
+
 ## Why is dSATA different to SATA?
 
-dSATA is the DAO voting token for Signata. SATA tokens are cross-chain and already in circulation. Using SATA tokens for voting on an on-chain DAO would not be possible in their current state. On-chain DAO contracts require enhanced ERC20 token features to be usable for voting, of which make them more expensive to transact with and discourage utility. And DAOs cannot be operated across multiple chains.
+dSATA is the DAO voting token for Signata. SATA tokens are cross-chain and already in circulation. Using SATA tokens for voting on an on-chain DAO would not be possible in their current state. On-chain DAO contracts require extensions to the ERC20 token standard to be usable for voting, of which make them more expensive to transact with and discourage utility. And DAOs cannot be operated across multiple chains, and Signata is already on 6 different chains.
 
 dSATA provides all the capability of an on-chain DAO without negatively impacting the utility of the SATA token.
 

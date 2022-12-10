@@ -27,12 +27,3 @@ The dApp is deployed on Fleek using IPFS, so it is available at the following UR
 {% embed url="https://veriswap.io" %}
 
 {% embed url="https://veriswap.eth.link" %}
-
-## ERC20 Token Swap
-
-
-
-## ERC721 Token Swap
-
-
-

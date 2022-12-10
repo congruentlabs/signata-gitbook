@@ -16,13 +16,11 @@ Website Source Code
 
 ## Overview
 
-Enterprise Identity Managers are dedicated applications for the creation and management of all identities with an organization. The Signata Identity Manager is the equivalent to this, but serving self-sovereign web3 identities. Users can create and manage all their own web3 identities within a single interface, and prepare them for use with Signata Identity Providers. Signata uses blockchains as decentralized identity registers. This ensures that every Signata identity is consumable inside smart contracts, and users retain self custody over their identity state.
+The Signata Identity Manager is a dedicated application for the creation and management of web3 identities within an organization. It serves as the equivalent of an enterprise identity manager, but for self-sovereign web3 identities. With the Signata Identity Manager, users can create and manage all of their web3 identities within a single interface and prepare them for use with Signata Identity Providers. Signata uses blockchain technology as decentralized identity registers, ensuring that every Signata identity can be consumed within smart contracts and that users retain control over their identity state.
 
 <figure><img src="../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
 
 ## Identity Definition
-
-
 
 An "Standard" identity is created with 3 keys, an **Identity** key, a **Delegate** key, and a **Security** key.
 
