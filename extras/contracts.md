@@ -20,6 +20,7 @@ Signata smart contracts have not undergone a security audit yet.
 | Metis     | `0x3ebb4A4e91Ad83BE51F8d596533818b246F4bEe1` |
 | Fantom    | `0x3ebb4A4e91Ad83BE51F8d596533818b246F4bEe1` |
 | Polygon   | `0x2E0f9A07d0ef445dB402d1c656ea6b71af81cb65` |
+| Arbitrum  | `0x545f8952A5cADF63DeE9658C189B309FAd5d789f` |
 | Legacy    | TBC                                          |
 
 ## SignataIdentity
@@ -34,6 +35,7 @@ Signata smart contracts have not undergone a security audit yet.
 | Metis     | `0xbec0A9aEa58b6a0c0f05a03078f7E7Dcecc13A95` |
 | Fantom    | `0x0BaFDe3aDAd83b679FAE5E9793Cd44ab247c6096` |
 | Polygon   | `0x545f8952A5cADF63DeE9658C189B309FAd5d789f` |
+| Arbitrum  | `0xe1A0f23b29fba2c82d8af15D354aaE048AE1Cd13` |
 | Legacy    | TBC                                          |
 
 ## SignataRight
@@ -48,6 +50,7 @@ Signata smart contracts have not undergone a security audit yet.
 | Metis     | `0x5120DB1015610BD7088157359ce92f3a4906faf7` |
 | Fantom    | `0x5120db1015610bd7088157359ce92f3a4906faf7` |
 | Polygon   | `0xe1A0f23b29fba2c82d8af15D354aaE048AE1Cd13` |
+| Arbitrum  | `0x3ebb4A4e91Ad83BE51F8d596533818b246F4bEe1` |
 | Legacy    | TBC                                          |
 
 ## VeriswapERC20
@@ -62,6 +65,7 @@ Signata smart contracts have not undergone a security audit yet.
 | Metis     | `0xE73f02493a60f1c8599deffE71cDFFd23E3A9e45` |
 | Fantom    | `0xE73f02493a60f1c8599deffE71cDFFd23E3A9e45` |
 | Polygon   | `0x4D6A137B248dB37672D99d33f8696012fA4Bd2F3` |
+| Arbitrum  | `0x03DE09777952082B12C968785FfDC898bfBb3F52` |
 | Legacy    | TBC                                          |
 
 ## Deployer
@@ -76,6 +80,7 @@ Signata smart contracts have not undergone a security audit yet.
 | Metis     | `0x042fc4ea3f836e1ea5dc4fb70ec90ded51c09eca` |
 | Fantom    | `0x042fc4ea3f836e1ea5dc4fb70ec90ded51c09eca` |
 | Polygon   | `0x042fc4ea3f836e1ea5dc4fb70ec90ded51c09eca` |
+| Arbitrum  | `0x042fc4ea3f836e1ea5dc4fb70ec90ded51c09eca` |
 | Legacy    | TBC                                          |
 
 ## Liquidity Vaults
@@ -120,6 +125,7 @@ Right Schema
 | Metis     | `0x8f2F667bf1E3411FC2f6ef8f12F6aD1E939a13CA` |
 | Fantom    | `0x8f2F667bf1E3411FC2f6ef8f12F6aD1E939a13CA` |
 | Polygon   | `0x3ebb4A4e91Ad83BE51F8d596533818b246F4bEe1` |
+| Arbitrum  | `0x0BaFDe3aDAd83b679FAE5E9793Cd44ab247c6096` |
 
 ### SATA 100 Membership
 
@@ -137,6 +143,7 @@ Right Schema
 | Metis     | `0x4D6A137B248dB37672D99d33f8696012fA4Bd2F3` |
 | Fantom    | `0x4D6A137B248dB37672D99d33f8696012fA4Bd2F3` |
 | Polygon   | `0x8f2F667bf1E3411FC2f6ef8f12F6aD1E939a13CA` |
+| Arbitrum  | `0x5120DB1015610BD7088157359ce92f3a4906faf7` |
 
 ### Verified Audits Rights
 
