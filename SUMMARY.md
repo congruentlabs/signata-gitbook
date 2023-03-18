@@ -12,6 +12,7 @@
 * [Veriswap Design](design/veriswap-design.md)
 * [Risk Management Design](design/risk-management-design.md)
 * [Signata Rights Design](design/signata-rights-design.md)
+* [Signata Identity V2 Proposal](design/signata-identity-v2-proposal.md)
 
 ## Guides
 
