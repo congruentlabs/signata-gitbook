@@ -44,13 +44,27 @@ Signata Rights were an early implementation of what later became known as Soulbo
 
 Functionally, these rights still serve the majority of Soulbound NFT requirements, but require updates to meet the additional requirements to become "soulbound-complete" in their utility.
 
-### Mutual consent
+The following headings detail the intended standards implementations for the next version of Signata Rights.
 
+### ERC-5192
 
+ERC-5192 is an extension of [EIP-721](https://eips.ethereum.org/EIPS/eip-721). It proposes a minimal interface to make tokens soulbound using the feature detection functionality of [EIP-165](https://eips.ethereum.org/EIPS/eip-165). A soulbound token is a non-fungible token bound to a single account.
 
-### Rights expiration
+### ERC-6150
 
-An additional attribute will be assigned to rights called expiration\_timestamp. This will provide the optional ability to define when a right is no longer active. This will be useful for rights such as "proof of KYC" where regulatory requirements require an individual to complete KYC processes periodically. The ability to update this attribute will be held by the schema administrator of the right.
+ERC-6150 is an extension to [EIP-721](https://eips.ethereum.org/EIPS/eip-721). It proposes a multi-layer filesystem-like hierarchical NFTs. This standard provides interfaces to get parent NFT or children NFTs and whether NFT is a leaf node or root node, maintaining the hierarchical relationship among them.
+
+As Signata NFTs are heirarchical in nature, this standard will be considered for replacing the structures for authority-driven&#x20;
+
+### ERC-6147
+
+ERC-6147 is an extension of [ERC-721](https://eips.ethereum.org/EIPS/eip-721). It separates the holding right and transfer right of non-fungible tokens (NFTs) and Soulbound Tokens (SBTs) and defines a new role, `guard` with `expires`. The flexibility of the `guard` setting enables the design of NFT anti-theft, NFT lending, NFT leasing, SBT, etc.
+
+This standard will be considered for implementation to introduce expiration modifiers to Signata Rights. This will be useful for rights such as "proof of KYC" where regulatory requirements require an individual to complete KYC processes periodically. The ability to update this attribute will be held by the administrator of the right.
+
+### ERC-5484
+
+ERC-5484 defines an interface extending [EIP-721](https://eips.ethereum.org/EIPS/eip-721) to create soulbound tokens. Before issuance, both parties (the issuer and the receiver), have to agree on who has the authorization to burn this token. Burn authorization is immutable after declaration. After its issuance, a soulbound token can’t be transferred, but can be burned based on a predetermined immutable burn authorization.
 
 ### Rights attributes
 
